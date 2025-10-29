@@ -334,6 +334,7 @@
 			<Subsystem>Продажи</Subsystem>
 			<Subsystem>Финансы</Subsystem>
 			<Subsystem>ТоварныеЗапасы</Subsystem>
+			<Subsystem>РасчетыСБанком</Subsystem>
 			<StyleItem>ЦветТекстаСущественныхИзмененийДанных</StyleItem>
 			<StyleItem>ЦветТекстаНормальногоСостояния</StyleItem>
 			<StyleItem>ЦветТекстаОшибочногоСостояния</StyleItem>
@@ -502,6 +503,7 @@
 			<Document>ПоступлениеДенег</Document>
 			<Document>ПриходТовара</Document>
 			<Document>РасходТовара</Document>
+			<Document>РасчетПроцентов</Document>
 			<DocumentJournal>ДокументыПродаж</DocumentJournal>
 			<DocumentJournal>ФинансовыеДокументы</DocumentJournal>
 			<Enum>ВидыТоваров</Enum>
@@ -521,6 +523,7 @@
 			<Report>ПрайсЛист</Report>
 			<Report>АнализЗаказов</Report>
 			<Report>ОстаткиТоваровНаСкладахМобильный</Report>
+			<Report>СверкаПроцентовБанка</Report>
 			<DataProcessor>АдминистративныйСервис</DataProcessor>
 			<DataProcessor>ДемонстрацияВозможностейДиаграмм</DataProcessor>
 			<DataProcessor>ЖурналРегистрации</DataProcessor>
@@ -535,12 +538,14 @@
 			<DataProcessor>УправлениеПолнотекстовымПоиском</DataProcessor>
 			<DataProcessor>УправлениеСистемойВзаимодействия</DataProcessor>
 			<DataProcessor>ЭлектроннаяПочта</DataProcessor>
+			<DataProcessor>АРМЗагрузкиПроцентовБанка</DataProcessor>
 			<InformationRegister>КурсыВалют</InformationRegister>
 			<InformationRegister>ЦеныТоваров</InformationRegister>
 			<InformationRegister>СостояниеВходящихПисем</InformationRegister>
 			<InformationRegister>СостояниеИсходящихПисем</InformationRegister>
 			<InformationRegister>Характеристики</InformationRegister>
 			<InformationRegister>МобильныеОтчеты</InformationRegister>
+			<InformationRegister>ПроцентыБанка</InformationRegister>
 			<AccumulationRegister>Взаиморасчеты</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
 			<AccumulationRegister>ТоварныеЗапасы</AccumulationRegister>
