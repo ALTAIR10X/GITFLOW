@@ -89,6 +89,12 @@
 			<ContextMenu name="СуммаКонтекстноеМеню" id="15"/>
 			<ExtendedTooltip name="СуммаExtendedTooltip" id="25"/>
 		</InputField>
+		<InputField name="ТестовыйРеквизит" id="26">
+			<DataPath>Объект.ТестовыйРеквизит</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ТестовыйРеквизитКонтекстноеМеню" id="27"/>
+			<ExtendedTooltip name="ТестовыйРеквизитРасширеннаяПодсказка" id="28"/>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
